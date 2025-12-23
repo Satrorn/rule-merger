@@ -6,7 +6,7 @@
 
     Line:
       type: http
-      url: "https://258085.xyz:60/clash/1/Line.list"
+      url: "https://258085.xyz:60/clash/rule-merger/Line.list"
       format: txt
       behavior: classical
 
@@ -17,7 +17,7 @@
 
     Cn:
       type: http
-      url: "https://258085.xyz:60/clash/1/Cn.list"
+      url: "https://258085.xyz:60/clash/rule-merger/Cn.list"
       format: txt
       behavior: classical
 
@@ -28,7 +28,7 @@
 
     Country:
       type: http
-      url: "https://258085.xyz:60/clash/1/Country.list"
+      url: "https://258085.xyz:60/clash/rule-merger/Country.list"
       format: txt
       behavior: classical
 
