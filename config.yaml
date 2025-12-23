@@ -1,4 +1,37 @@
 
+- path: output/Line.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+
+    Line:
+      type: http
+      url: "https://258085.xyz:60/clash/Line.txt"
+      format: txt
+      behavior: classical
+
+- path: output/Cn.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+
+    Cn:
+      type: http
+      url: "https://258085.xyz:60/clash/Cn.txt"
+      format: txt
+      behavior: classical
+
+- path: output/Country.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+
+    Country:
+      type: http
+      url: "https://258085.xyz:60/clash/Country.txt"
+      format: txt
+      behavior: classical
+
 - path: output/reject.yaml
   format: yaml
   behavior: classical
