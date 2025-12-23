@@ -6,7 +6,7 @@
 
     Line:
       type: http
-      url: "https://258085.xyz:60/clash/Line.txt"
+      url: "https://258085.xyz:60/clash/1/Line.list"
       format: txt
       behavior: classical
 
@@ -17,7 +17,7 @@
 
     Cn:
       type: http
-      url: "https://258085.xyz:60/clash/Cn.txt"
+      url: "https://258085.xyz:60/clash/1/Cn.list"
       format: txt
       behavior: classical
 
@@ -28,7 +28,7 @@
 
     Country:
       type: http
-      url: "https://258085.xyz:60/clash/Country.txt"
+      url: "https://258085.xyz:60/clash/1/Country.list"
       format: txt
       behavior: classical
 
